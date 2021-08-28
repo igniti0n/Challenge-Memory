@@ -3,27 +3,38 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		2C4B148426D9663D0084D270 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4B148326D9663D0084D270 /* AppDelegate.swift */; };
 		2C4B148626D9663D0084D270 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4B148526D9663D0084D270 /* SceneDelegate.swift */; };
-		2C4B148826D9663D0084D270 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4B148726D9663D0084D270 /* ViewController.swift */; };
 		2C4B148B26D9663D0084D270 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C4B148926D9663D0084D270 /* Main.storyboard */; };
 		2C4B148D26D9663E0084D270 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C4B148C26D9663E0084D270 /* Assets.xcassets */; };
 		2C4B149026D9663E0084D270 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C4B148E26D9663E0084D270 /* LaunchScreen.storyboard */; };
+		2C4B14A126D9665D0084D270 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4B149926D9665D0084D270 /* Card.swift */; };
+		2C4B14A226D9665D0084D270 /* CardDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4B149A26D9665D0084D270 /* CardDown.swift */; };
+		2C4B14A326D9665D0084D270 /* CardUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4B149B26D9665D0084D270 /* CardUp.swift */; };
+		2C4B14A426D9665D0084D270 /* CardPair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4B149D26D9665D0084D270 /* CardPair.swift */; };
+		2C4B14A526D9665D0084D270 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4B149F26D9665D0084D270 /* ViewController.swift */; };
+		2C4B14A626D9665D0084D270 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4B14A026D9665D0084D270 /* GameView.swift */; };
+		2C4B14A926D966B00084D270 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2C4B14A826D966B00084D270 /* SnapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2C4B148026D9663D0084D270 /* Challenge -- Memory game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Challenge -- Memory game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C4B148326D9663D0084D270 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C4B148526D9663D0084D270 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2C4B148726D9663D0084D270 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2C4B148A26D9663D0084D270 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C4B148C26D9663E0084D270 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C4B148F26D9663E0084D270 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C4B149126D9663E0084D270 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C4B149926D9665D0084D270 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		2C4B149A26D9665D0084D270 /* CardDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardDown.swift; sourceTree = "<group>"; };
+		2C4B149B26D9665D0084D270 /* CardUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardUp.swift; sourceTree = "<group>"; };
+		2C4B149D26D9665D0084D270 /* CardPair.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardPair.swift; sourceTree = "<group>"; };
+		2C4B149F26D9665D0084D270 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2C4B14A026D9665D0084D270 /* GameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C4B14A926D966B00084D270 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +52,9 @@
 		2C4B147726D9663D0084D270 = {
 			isa = PBXGroup;
 			children = (
+				2C4B149726D9665D0084D270 /* Common */,
+				2C4B149E26D9665D0084D270 /* GameScreen */,
+				2C4B149C26D9665D0084D270 /* Models */,
 				2C4B148226D9663D0084D270 /* Challenge -- Memory game */,
 				2C4B148126D9663D0084D270 /* Products */,
 			);
@@ -58,13 +73,47 @@
 			children = (
 				2C4B148326D9663D0084D270 /* AppDelegate.swift */,
 				2C4B148526D9663D0084D270 /* SceneDelegate.swift */,
-				2C4B148726D9663D0084D270 /* ViewController.swift */,
 				2C4B148926D9663D0084D270 /* Main.storyboard */,
 				2C4B148C26D9663E0084D270 /* Assets.xcassets */,
 				2C4B148E26D9663E0084D270 /* LaunchScreen.storyboard */,
 				2C4B149126D9663E0084D270 /* Info.plist */,
 			);
 			path = "Challenge -- Memory game";
+			sourceTree = "<group>";
+		};
+		2C4B149726D9665D0084D270 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2C4B149826D9665D0084D270 /* Card */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		2C4B149826D9665D0084D270 /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				2C4B149926D9665D0084D270 /* Card.swift */,
+				2C4B149A26D9665D0084D270 /* CardDown.swift */,
+				2C4B149B26D9665D0084D270 /* CardUp.swift */,
+			);
+			path = Card;
+			sourceTree = "<group>";
+		};
+		2C4B149C26D9665D0084D270 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2C4B149D26D9665D0084D270 /* CardPair.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2C4B149E26D9665D0084D270 /* GameScreen */ = {
+			isa = PBXGroup;
+			children = (
+				2C4B149F26D9665D0084D270 /* ViewController.swift */,
+				2C4B14A026D9665D0084D270 /* GameView.swift */,
+			);
+			path = GameScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +132,9 @@
 			dependencies = (
 			);
 			name = "Challenge -- Memory game";
+			packageProductDependencies = (
+				2C4B14A826D966B00084D270 /* SnapKit */,
+			);
 			productName = "Challenge -- Memory game";
 			productReference = 2C4B148026D9663D0084D270 /* Challenge -- Memory game.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +162,9 @@
 				Base,
 			);
 			mainGroup = 2C4B147726D9663D0084D270;
+			packageReferences = (
+				2C4B14A726D966B00084D270 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 2C4B148126D9663D0084D270 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,9 +192,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C4B148826D9663D0084D270 /* ViewController.swift in Sources */,
+				2C4B14A326D9665D0084D270 /* CardUp.swift in Sources */,
+				2C4B14A226D9665D0084D270 /* CardDown.swift in Sources */,
 				2C4B148426D9663D0084D270 /* AppDelegate.swift in Sources */,
+				2C4B14A626D9665D0084D270 /* GameView.swift in Sources */,
+				2C4B14A426D9665D0084D270 /* CardPair.swift in Sources */,
 				2C4B148626D9663D0084D270 /* SceneDelegate.swift in Sources */,
+				2C4B14A526D9665D0084D270 /* ViewController.swift in Sources */,
+				2C4B14A126D9665D0084D270 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +356,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ivanstajcer.Challenge----Memory-game";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -315,7 +375,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ivanstajcer.Challenge----Memory-game";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -341,6 +401,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2C4B14A726D966B00084D270 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2C4B14A826D966B00084D270 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2C4B14A726D966B00084D270 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2C4B147826D9663D0084D270 /* Project object */;
 }
