@@ -45,6 +45,8 @@ class Card : UIView {
              let up = CardUp()
              up.label.text = text
              currentSide = up
+            
+            //ovo sam našao na netu, da natjeram da se nacrta na ekranu ponovo, ali ne radi izgleda
              setNeedsDisplay()
              currentSide.setNeedsDisplay()
             
@@ -70,7 +72,7 @@ class Card : UIView {
 //        frontSide.label.text = "hello"
 //        addSubview(frontSide)
 //        addSubview(backSide)
-        
+        addSubview(currentSide)
         addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(flipCard)))
         
     }
